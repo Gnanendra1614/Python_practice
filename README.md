@@ -164,3 +164,174 @@ A module is a Python file (.py) that contains reusable code such as functions, v
 2. Python Parameters
 
 A parameter is a variable written inside the function definition. It receives a value when the function is called.
+
+Python Programming – Modules, Packages, OOP & Functions
+
+
+This repository contains my learning and practice work on important Python programming concepts, including:
+
+Python Modules
+Python Packages
+Object-Oriented Programming (OOP)
+Classes and Objects
+Attributes and Methods
+Constructors
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Method Overloading
+Method Overriding
+Lambda Functions
+Higher-Order Functions
+
+1. Python Modules
+
+A module is a Python file containing reusable code such as functions, classes, and variables.
+
+Types of Modules
+
+Built-in Modules – Modules provided by Python.
+math
+os
+sys
+random
+datetime
+
+User-Defined Modules – Modules created by the programmer.
+
+2. Python Packages
+
+A package is a directory that contains related Python modules and helps organize large applications.
+
+Example Structure
+my_package/
+│
+├── __init__.py
+├── calculator.py
+├── student.py
+└── employee.py
+
+3. Object-Oriented Programming (OOP)
+
+OOP stands for Object-Oriented Programming.
+
+It is a programming approach based on classes and objects.
+
+Main OOP Concepts
+
+Class
+Object
+Attributes
+Methods
+Constructor
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Method Overloading
+Method Overriding
+
+4. Class
+
+A class is a blueprint or template used to create objects.
+
+Example:
+
+class Student:
+    pass
+
+5. Object
+
+An object is an instance of a class.
+
+Example:
+
+class Student:
+    pass
+
+student1 = Student()
+student2 = Student()
+
+6. Attributes
+
+Attributes represent the properties or data of an object.
+
+7. Methods
+
+A method is a function defined inside a class.
+
+Types of Methods
+
+Python mainly has three types of methods:
+
+Instance Method
+Class Method
+Static Method
+
+8. Constructor
+
+A constructor is used to initialize an object's attributes.
+
+In Python, __init__() is commonly used as the constructor.
+
+Types of Constructors
+
+Default Constructor
+Parameterized Constructor
+
+9. Encapsulation
+
+Encapsulation means combining data and methods within a class and controlling access to the data.
+
+10. Inheritance
+
+Inheritance allows a child class to acquire properties and methods from a parent class.
+
+Types of Inheritance
+
+Single Inheritance
+Multiple Inheritance
+Multilevel Inheritance
+Hierarchical Inheritance
+Hybrid Inheritance
+
+11. Method Overriding
+
+Method overriding occurs when a child class provides its own implementation of a method that exists in the parent class.
+
+12. Polymorphism
+
+Polymorphism means many forms.
+
+The same method or interface can behave differently depending on the object.
+
+13. Method Overloading
+
+Method overloading refers to using the same method name with different arguments.
+
+Python does not support traditional method overloading by defining multiple methods with the same name. Similar behavior can be achieved using techniques such as default arguments.
+
+14. Abstraction
+
+Abstraction means hiding unnecessary implementation details and showing only the essential functionality.
+
+Python provides the abc module to implement abstract base classes.
+
+15. Lambda Functions
+
+A lambda function is a small anonymous function created using the lambda keyword.
+
+Common Uses of Lambda
+
+map()
+filter()
+sorted()
+reduce()
+
+16. Higher-Order Functions
+
+A higher-order function is a function that:
+
+Takes another function as an argument, or
+Returns another function.
